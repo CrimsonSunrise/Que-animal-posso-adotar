@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Que animal posso adotar?</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="shortcut icon" href="./logo.png" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="container">
+			<div id="meuModal" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<div class="modal-imagem">
+						<img width="180" src="" alt="" />
+					</div>
+					<div class="nome">
+						<span></span>
+					</div>
+					<div class="descricao">
+						<p></p>
+					</div>
+					<div class="adotavel">
+						<label for="">Posso adotar?</label>
+						<p></p>
+					</div>
+					<div class="adotavel-motivo">
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<header>
+				<div class="logo">Que animal posso adotar?</div>
+				<div class="filtro">
+					<input
+						type="text"
+						id="input-filtrar"
+						autocomplete="off"
+						placeholder="Pesquise o nome de um animal"
+						autofocus
+					/>
+				</div>
+			</header>
+			<main>
+				<div class="lista-animais" id="lista-animais"></div>
+			</main>
+			<footer>
+				Feito com 💕 por
+				<a href="https://github.com/CrimsonSunrise" target="_blank"
+					>Crimson Sunrise</a
+				>
+				especialmente para a
+				<a
+					href="https://www.alura.com.br/imersao-dev-google-gemini"
+					target="_blank"
+					>Imersão Alura e Google Gemini</a
+				>.
+			</footer>
+		</div>
+
+		<script type="module" src="./main.js"></script>
+		<script type="module" src="./dados.js"></script>
+	</body>
+</html>
