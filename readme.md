@@ -1,7 +1,7 @@
 # Que animal posso adotar?
 
 #### TLDR: Este é um projeto criado por mim para participar da Imersão Alura e Google Gemini em Setembro de 2024.
-Você pode acessar a página neste link.
+Você pode acessar a página em <a href="https://que-animal-posso-adotar.vercel.app" target="_blank">Que animal posso adotar?</a>.
 
 <br/>
 
@@ -63,11 +63,11 @@ Para os cards de animais decidi usar uma imagem com fundo transparente e ai eu t
 
 Montei a div ".animal" da seguinte maneira e com os seguintes elementos:
 
-<img src="./dispocicao.png" alt="Disposição dos elementos">
+<img src="./assets/dispocicao.png" alt="Disposição dos elementos">
 
 Na div ".image-holder" eu coloquei um `border-radius: 0 0 100px 100px` para garantir que somente as border inferiores ficassem arredondatas e junto com `overflow: hidden` deu a impressão que a imagem do animal estava saindo do card. Ficou incrível.
 
-<img src="./gato.png" alt="Card com borda inferior arredondada">
+<img src="./assets/gato.png" alt="Card com borda inferior arredondada">
 
 Agora faltou a parte interativa que era mostrar as informações dos animais ao clicar nos cards.
 
@@ -77,8 +77,10 @@ Depois estilizei o modal da maneira que combinasse com o visual do projeto e jun
 
 E assim o projeto tomou vida. Pela minha descrição pareceu uma eternidade mas durou somente 3:30h do início até postar no Github. Incrível!
 
-<img src="./preview.gif" alt="Preview do site">
+<img src="./assets/preview.gif" alt="Preview do site">
 
 Eu já conhecia HTML, CSS e Javacript mas é sempre bom ter novos desafios e conhecer coisas novas sempre que nos deparamos com algum projeto desafiador ou interessante.
 
-Você pode acessar a página em Que animal posso adotar?
+Você pode acessar a página em <a href="https://que-animal-posso-adotar.vercel.app" target="_blank">Que animal posso adotar?</a>
+
+Fique à vontade para baixar este projeto, estudar os conceitos utilizados e usar da maneira que quiser 😊!
