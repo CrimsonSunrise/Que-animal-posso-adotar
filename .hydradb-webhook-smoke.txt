@@ -1,0 +1,1 @@
+Temporary HydraDB GitHub push webhook validation - 2026-10-07. Remove after verification.
